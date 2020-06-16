@@ -1,0 +1,56 @@
+:root {
+  --lightblue: #F6F9FC;
+  --red: #d64041;
+  --cafe:#bc9320;
+  --dorado:#ddb527;
+  --gris:#878787;
+  --black:#000;
+  --white:#f1f7f1de;
+}
+ 
+a,
+a:hover {
+  color: inherit;
+}
+ 
+a:hover {
+  text-decoration: none;
+}
+ 
+.bg-gris {
+  background: var(--gris);
+}
+
+.bg-white {
+  background-color: var(--white)!important;
+}
+
+.cover {
+  background: no-repeat center/cover;
+}
+.imgback {
+  background-image: url("../img/6.jpg")
+}
+.bg-sobre {
+  background-color: #00000066;
+}
+.padign14{
+  padding: 14px;
+}
+.textdorado{
+  color:var(--dorado);
+  text-align: center!important;
+}
+.w100{
+  width: 100%;
+  display: flex;
+}
+.w50{
+  width: 49%;
+}
+p{
+  padding-top: 120px;
+}
+
+
+
